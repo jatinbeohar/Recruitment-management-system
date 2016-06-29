@@ -1,0 +1,20 @@
+#include<iostream>
+
+int main()
+{ char ch;
+  std::cout<<"/t/tWELCOME TO RMS";
+  std::cout<<"/n/n/t/t sign in as:";
+  std::cout<<"/n/n 1. as HR";
+  std::cout<<"/n 2.as APPLICANT";
+  std::cout<<"/n/n new user SIGN-IN here";
+  std::cin>>ch;
+  switch (ch)
+   {case 1:/*HR creates and manage vacancy
+            manage applicants detail
+            manage interviews*/
+    case 2: /* applicants can manage and edit his profile submitted to RMS*/
+    case 3: FILE *wfile;
+            wfile=fopen("newuser.txt","w");
+   }
+  
+}
