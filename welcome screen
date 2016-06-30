@@ -15,6 +15,7 @@ int main()
     case 2: /* applicants can manage and edit his profile submitted to RMS*/
     case 3: FILE *wfile;
             wfile=fopen("newuser.txt","w");
+            
    }
   
 }
