@@ -29,7 +29,7 @@ int main()
 		gets(v1[i].date);
 		printf("\nspecial requirement:");
 		gets(v1[i].a);
-		i-=i+1;
+		i=i+1;
 		fwrite(v1,sizeof(struct vac),1,f1);
 		printf("\nwant to enter more:(y/n)");
 		fflush(stdin);
